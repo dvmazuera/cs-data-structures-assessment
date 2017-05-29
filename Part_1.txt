@@ -1,0 +1,57 @@
+
+
+PART 1.
+
+Runtime: 
+1. What determines the workload of figuring out whether your box of animal crackers contains an elephant?
+1A - How many crackers are in the box.
+
+2. Order the following runtimes in descending order of efficiency (that is, fastest runtimes first, slowest last) as n approaches infinity:
+2A- O(logn)
+	O(1)
+	O(n)
+	O(nlogn)
+	O(n^2)
+	O(2^n)
+
+
+Stacks & Queues:
+1.Would a stack or queue be a more appropriate data structure?
+ 	1.STACK: The process of loading and unloading pallets onto a flatbed truck
+ 	2. QUEUE: Putting bottle caps on bottles of beer as they roll down an assembly line
+ 	3. STACK: (read the parenthese LIFO) Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+
+ 2. Describe two more situations where a queue would be an appropriate data structure.
+ 	1. Going through a drive through and getting your food.
+ 	2. Eating food in your fridge.
+
+ 3. Describe two more situations where a stack would be an appropriate data structure.
+ 	1. Packing people into a elevator.
+ 	2. 
+
+
+ Linked Lists:
+ 1. Given the linked list below, which are the nodes? What is the data for each node? Where is the head? Where is the tail? (Please be as specific as possible — exactly which parts of the diagram correspond to each part? Arrows? Boxes? Text?)
+
+ 	- The nodes are the boxes that contain strings - "Apple", "Berry", and "Cherry".
+ 	- The data corresponding to each node is the text or string found inside each box(node) - "Apple", "Berry", and "Cherry".
+ 	- The head is the first node in the linked list, here being "Apple".
+ 	- At the moment, a tail attribute is not specified in our linked list. 
+
+ 2. Doubly linked lists have a next and prev node established - this informs the function of not only the node that is next in the list but also the one that came before. Singly linked list will only identify the next node and work in ONE direction. 
+
+ 3. It's faster to append to a linked list if we keep track of the tail because then we dont have to traverse the whole list to get to the last node. Instead we already know what the last node is and can append to it immediately.
+
+
+ Trees:
+ 1. The Breadth First Search (BFS) algorithm searches in levels starting at the root. It would search first Italian, Indian, Mexican, -next- lasagna, pizza, tikka masala, saag, BURRITOS. 
+
+ 2. The Depth First Search (DFS) algorithm files all the way down the branch starting from the right side. This tree would traverse through all of the Mexican branch, then Indian branch, and finally the Italian branch as: Italian, Pizza, Sicilian, New York Style, and CHICAGO-STYLE. 
+
+ __________________________________________________________________
+
+ Part 2. 
+
+
+
+
